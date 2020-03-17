@@ -7,24 +7,6 @@ crud usando flask
 
 
 
-## Como rodar projeto
-```sh
-export FLASK_APP=app
-export FLASK_ENV=Development
-export FLASK_DEBUG=True
-
-flask run
-```
-
-
-## Como fazer as migrações
-
-```sh
-flask db init
-flask db migrate
-flask db upgrade
-```
-
 ## Serializer
 ``` sh
     Faz o objeto que é um JSON que vem da rota, ser retornado como um objeto no banco. 
